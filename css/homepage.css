@@ -1,0 +1,314 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    flex-wrap: wrap;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    background: black ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 80%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header div {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    
+}
+.header-name {
+    padding: 20px;
+    font-size: 17px;
+}
+.header-right {
+    display: flex;
+}
+ a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    
+}
+a:hover {
+    background-color: #ddd;
+    color: black;
+  } 
+
+.header-right div {
+    padding: 20px;
+
+}
+#myimage {
+    background-image: url('/images/IMG_5316.JPG');
+    
+    /* make a square container */
+    width: 100%;
+    height: 100%;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+    opacity: 90%;
+    border-radius: 10px;
+
+    
+    
+    
+}
+h1{
+    font-size: 70px;
+    text-shadow: 2px 2px #000000;
+}
+h2 {
+    font-size: 50px;
+    text-shadow: 3px 3px #000000;
+   
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+#container-containSS {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 95%;
+}
+#containerSS {
+    display: flex;
+    align-items: center;
+}
+#containerSS img {
+    width: 400px;
+    margin-right: 20px;
+}
+#myimagetext {
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 200px;
+    
+}
+#finalcontainerSS {
+    display: flex;
+    justify-content: center
+}
+#cover {
+    width: 100%;
+    padding-bottom: 50px;
+}
+p{
+    font-size: 30px;
+}
+.grid-item {
+    display: flex;
+
+}
+.languages-container {
+    width: 75%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    column-count: 3;
+    column-gap: 40px;
+}
+
+.grid {
+
+    width:500px;
+    background: grey;
+    height: 500px;
+    border-radius: 10px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.grid-item div {
+    padding: 10px;
+}
+.align-languages-container {
+    display: flex;
+    justify-content: center;
+}
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+
+}
+#container div {
+    height: 210px;
+    background: rgb(252, 252, 252);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    transition: 1s;
+}
+#aftereffectsimage{
+    padding-top: 40px;
+    height: 155px;
+    width: 125px;
+}
+#sql {
+    padding-top: 30px;
+    height: 200px;
+    width: 325px;
+    
+}
+#container > div:hover {
+    transform: scale(1.2);
+    opacity: 100%;
+    background: rgba(207, 207, 207, 0.288);
+    z-index: 2;
+
+}
+#containerCV {
+    text-align: center;
+}
+
+#downloadbutton {
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    border: 1px white;
+    background: rgb(0, 162, 255);
+    transition: 1s;
+}
+#downloadbutton:hover {
+    transform: scale(1.05);
+    background-color:rgba(0, 162, 255, 0.616);
+}
+#Educationcontainer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+}
+#Educationcontainer div {
+    height: 400px;
+    background: rgb(252, 252, 252);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    transition: 1s;
+    flex-wrap: wrap;
+}
+
+#Educationcontainer div:hover {
+    transform: scale(1.2);
+    opacity: 100%;
+    background: rgba(207, 207, 207, 0.288);
+    z-index: 2;
+
+}
+
+#EducationcontainerS {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+}
+#EducationcontainerS div {
+    height: 300px;
+    background: rgb(252, 252, 252);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    transition: 1s;
+}
+
+#EducationcontainerS div:hover {
+    transform: scale(1.2);
+    opacity: 100%;
+    background: rgba(207, 207, 207, 0.288);
+    z-index: 2;
+
+}
+#contactcontainer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+}
+#contactcontainer div {
+    height: 300px;
+    background: rgb(252, 252, 252);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    transition: 1s;
+}
+#contactcontainer div:hover {
+    transform: scale(1.2);
+    opacity: 100%;
+    background: rgba(5, 235, 93, 0.541);
+    z-index: 2;
+
+}
+.footer {
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+#spokenlanguages {
+    display: flex;
+    flex-direction: row;
+    
+}
+#spokenlanguages div {
+    width: 50%;
+    height: 400px;
+    background: #fafaf7;
+    margin: 10px 10px;
+    padding: 10px;
+    transition: 2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#spokenlanguages div:hover{
+    transform: scale(1.2);
+    background: #b8b8b8;
+    z-index: 2;
+
+    
+
+}
+.column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+
+
+
+
